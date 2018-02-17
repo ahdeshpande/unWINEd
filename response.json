@@ -1,0 +1,2046 @@
+{
+  "meta": {
+    "code": 200,
+    "requestId": "5a88607c1ed2196c77605481"
+  },
+  "notifications": [
+    {
+      "type": "notificationTray",
+      "item": {
+        "unreadCount": 0
+      }
+    }
+  ],
+  "response": {
+    "venues": [
+      {
+        "id": "51a22361498e3b4c65a7e2e3",
+        "name": "Grace Estate Winery",
+        "contact": {},
+        "location": {
+          "address": "5273 Mount Juliet Farm",
+          "lat": 38.11440395383097,
+          "lng": -78.66693497320948,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.11440395383097,
+              "lng": -78.66693497320948
+            }
+          ],
+          "distance": 8974,
+          "postalCode": "22932",
+          "cc": "US",
+          "city": "Crozet",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "5273 Mount Juliet Farm",
+            "Crozet, VA 22932"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 313,
+          "usersCount": 233,
+          "tipCount": 4
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "venuePage": {
+          "id": "115275701"
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887036",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4c2faa0e213c2d7fd94a315d",
+        "name": "Flying Fox Vineyard",
+        "contact": {
+          "phone": "4343611692",
+          "formattedPhone": "(434) 361-1692"
+        },
+        "location": {
+          "address": "27 Chapel Hollow Road",
+          "lat": 37.94137108755299,
+          "lng": -78.83972604545708,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.94137108755299,
+              "lng": -78.83972604545708
+            }
+          ],
+          "distance": 16470,
+          "postalCode": "22958",
+          "cc": "US",
+          "city": "Lovingston",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "27 Chapel Hollow Road",
+            "Lovingston, VA 22958"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1de941735",
+            "name": "Vineyard",
+            "pluralName": "Vineyards",
+            "shortName": "Vineyard",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/vineyard_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 356,
+          "usersCount": 313,
+          "tipCount": 7
+        },
+        "url": "http:\/\/www.flyingfoxvineyard.com\/",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887036",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4bb640be2ea195212360ab2f",
+        "name": "Stone Mountain Vineyards",
+        "contact": {
+          "phone": "4349909463",
+          "formattedPhone": "(434) 990-9463"
+        },
+        "location": {
+          "address": "1376 Wyatt Mountain Rd",
+          "crossStreet": "off Bacon Hollow",
+          "lat": 38.27863313613477,
+          "lng": -78.58531504370646,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.27863313613477,
+              "lng": -78.58531504370646
+            }
+          ],
+          "distance": 28583,
+          "postalCode": "22935",
+          "cc": "US",
+          "city": "Dyke",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "1376 Wyatt Mountain Rd (off Bacon Hollow)",
+            "Dyke, VA 22935"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 132,
+          "usersCount": 117,
+          "tipCount": 2
+        },
+        "hasMenu": true,
+        "menu": {
+          "type": "Services",
+          "label": "Services",
+          "anchor": "View Services",
+          "url": "https:\/\/foursquare.com\/v\/stone-mountain-vineyards\/4bb640be2ea195212360ab2f\/menu",
+          "mobileUrl": "https:\/\/foursquare.com\/v\/4bb640be2ea195212360ab2f\/device_menu"
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "54df9e0b498e4432dc0dcc7b",
+        "name": "Chestnut Oak Vineyard",
+        "contact": {},
+        "location": {
+          "lat": 38.140979,
+          "lng": -78.328365,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.140979,
+              "lng": -78.328365
+            }
+          ],
+          "distance": 34279,
+          "cc": "US",
+          "city": "Rivanna",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "Rivanna, VA"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 17,
+          "usersCount": 17,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "525af9d9498e7c8fd2c253d5",
+        "name": "Moss Vineyards",
+        "contact": {
+          "phone": "4349900111",
+          "formattedPhone": "(434) 990-0111"
+        },
+        "location": {
+          "address": "1849 Simmons Gap Rd",
+          "lat": 38.2374603032615,
+          "lng": -78.55438722133084,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.2374603032615,
+              "lng": -78.55438722133084
+            }
+          ],
+          "distance": 25534,
+          "postalCode": "22935",
+          "cc": "US",
+          "city": "White Hall",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "1849 Simmons Gap Rd",
+            "White Hall, VA 22935"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1de941735",
+            "name": "Vineyard",
+            "pluralName": "Vineyards",
+            "shortName": "Vineyard",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/vineyard_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 84,
+          "usersCount": 71,
+          "tipCount": 3
+        },
+        "url": "http:\/\/mossvineyards.net",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5341791f498ea3e44ff9550a",
+        "name": "Loving Cup Vineyard & Winery",
+        "contact": {
+          "phone": "4349840774",
+          "formattedPhone": "(434) 984-0774"
+        },
+        "location": {
+          "address": "3340 Sutherland Rd",
+          "lat": 37.95161658697541,
+          "lng": -78.68637110827706,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.95161658697541,
+              "lng": -78.68637110827706
+            }
+          ],
+          "distance": 9579,
+          "postalCode": "22959",
+          "cc": "US",
+          "city": "North Garden",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "3340 Sutherland Rd",
+            "North Garden, VA 22959"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 34,
+          "usersCount": 31,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b785704f964a520b4c62ee3",
+        "name": "Pollak Vineyards",
+        "contact": {
+          "phone": "5404568844",
+          "formattedPhone": "(540) 456-8844"
+        },
+        "location": {
+          "address": "330 Newtown Rd",
+          "lat": 38.03463221334067,
+          "lng": -78.79432659697093,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.03463221334067,
+              "lng": -78.79432659697093
+            }
+          ],
+          "distance": 8558,
+          "postalCode": "22943",
+          "cc": "US",
+          "city": "Greenwood",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "330 Newtown Rd",
+            "Greenwood, VA 22943"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1417,
+          "usersCount": 1100,
+          "tipCount": 19
+        },
+        "url": "http:\/\/www.pollakvineyards.com\/ ",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b8eae45f964a520943033e3",
+        "name": "Hill Top Berry Farm & Winery",
+        "contact": {
+          "phone": "4343611266",
+          "formattedPhone": "(434) 361-1266"
+        },
+        "location": {
+          "address": "2800 Berry Hill Rd",
+          "crossStreet": "State Route 613",
+          "lat": 37.9001105039618,
+          "lng": -78.84621700060607,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.9001105039618,
+              "lng": -78.84621700060607
+            }
+          ],
+          "distance": 20128,
+          "postalCode": "22958",
+          "cc": "US",
+          "city": "Nellysford",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "2800 Berry Hill Rd (State Route 613)",
+            "Nellysford, VA 22958"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 367,
+          "usersCount": 307,
+          "tipCount": 7
+        },
+        "url": "http:\/\/www.hilltopberrywine.com\/",
+        "hasMenu": true,
+        "menu": {
+          "type": "Services",
+          "label": "Services",
+          "anchor": "View Services",
+          "url": "https:\/\/foursquare.com\/v\/hill-top-berry-farm--winery\/4b8eae45f964a520943033e3\/menu",
+          "mobileUrl": "https:\/\/foursquare.com\/v\/4b8eae45f964a520943033e3\/device_menu"
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b19a05ff964a520b4e023e3",
+        "name": "Veritas Vineyard and Winery",
+        "contact": {
+          "phone": "5404568000",
+          "formattedPhone": "(540) 456-8000"
+        },
+        "location": {
+          "address": "151 Veritas Ln",
+          "crossStreet": "at Afton Mountain Rd (Rte. 6)",
+          "lat": 38.015491012506544,
+          "lng": -78.83671123777219,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.015491012506544,
+              "lng": -78.83671123777219
+            }
+          ],
+          "distance": 12508,
+          "postalCode": "22920",
+          "cc": "US",
+          "city": "Afton",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "151 Veritas Ln (at Afton Mountain Rd (Rte. 6))",
+            "Afton, VA 22920"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1de941735",
+            "name": "Vineyard",
+            "pluralName": "Vineyards",
+            "shortName": "Vineyard",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/vineyard_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 3648,
+          "usersCount": 2553,
+          "tipCount": 36
+        },
+        "url": "http:\/\/www.veritaswines.com",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4be70811d4f7c9b6a65c2720",
+        "name": "Cardinal Point Vineyard & Winery",
+        "contact": {
+          "phone": "5404568400",
+          "formattedPhone": "(540) 456-8400"
+        },
+        "location": {
+          "address": "9423 Batesville Rd",
+          "lat": 37.988563648295084,
+          "lng": -78.81399976382727,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.988563648295084,
+              "lng": -78.81399976382727
+            }
+          ],
+          "distance": 11623,
+          "postalCode": "22920",
+          "cc": "US",
+          "city": "Afton",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "9423 Batesville Rd",
+            "Afton, VA 22920"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 850,
+          "usersCount": 595,
+          "tipCount": 16
+        },
+        "url": "http:\/\/cardinalpointwinery.com",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4d3c656905b8721ea2f38b37",
+        "name": "Wintergreen Winery",
+        "contact": {},
+        "location": {
+          "address": "593-699 Winery Ln",
+          "lat": 37.877356664015615,
+          "lng": -78.92563153069355,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.877356664015615,
+              "lng": -78.92563153069355
+            }
+          ],
+          "distance": 26840,
+          "postalCode": "22967",
+          "cc": "US",
+          "city": "Roseland",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "593-699 Winery Ln",
+            "Roseland, VA 22967"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 117,
+          "usersCount": 113,
+          "tipCount": 4
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5a512c74b040561499145ce9",
+        "name": "Septenary The Winery At Seven Oaks Farm",
+        "contact": {},
+        "location": {
+          "lat": 38.041799,
+          "lng": -78.747728,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.041799,
+              "lng": -78.747728
+            }
+          ],
+          "distance": 4495,
+          "postalCode": "22943",
+          "cc": "US",
+          "city": "Greenwood",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "Greenwood, VA 22943"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 5,
+          "usersCount": 4,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4da08ff96fd2548109be619b",
+        "name": "Wineworks\/Michael Shaps Wines",
+        "contact": {
+          "phone": "4342963438",
+          "formattedPhone": "(434) 296-3438"
+        },
+        "location": {
+          "address": "1781 Harris Creek Way",
+          "crossStreet": "Turn off Rt 20 at First Colony Winery",
+          "lat": 37.89790251403886,
+          "lng": -78.55744483763026,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.89790251403886,
+              "lng": -78.55744483763026
+            }
+          ],
+          "distance": 19754,
+          "postalCode": "22902",
+          "cc": "US",
+          "city": "Charlottesville",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "1781 Harris Creek Way (Turn off Rt 20 at First Colony Winery)",
+            "Charlottesville, VA 22902"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 222,
+          "usersCount": 162,
+          "tipCount": 3
+        },
+        "url": "http:\/\/virginiawineworks.com",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4bc789a82f94d13a181d127f",
+        "name": "Blenheim Vineyards",
+        "contact": {
+          "phone": "4342935366",
+          "formattedPhone": "(434) 293-5366"
+        },
+        "location": {
+          "address": "31 Blenheim Farm",
+          "lat": 37.93165597152479,
+          "lng": -78.49887185955836,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.93165597152479,
+              "lng": -78.49887185955836
+            }
+          ],
+          "distance": 20969,
+          "postalCode": "22902",
+          "cc": "US",
+          "city": "Charlottesville",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "31 Blenheim Farm",
+            "Charlottesville, VA 22902"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 2470,
+          "usersCount": 1858,
+          "tipCount": 25
+        },
+        "url": "http:\/\/blenheimvineyards.com",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4bed9c1b9868a59317a85d46",
+        "name": "Barren Ridge Vineyard",
+        "contact": {
+          "phone": "5402483300",
+          "formattedPhone": "(540) 248-3300"
+        },
+        "location": {
+          "address": "Barren Ridge Rd.",
+          "lat": 38.13385284661313,
+          "lng": -78.9559328959812,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.13385284661313,
+              "lng": -78.9559328959812
+            }
+          ],
+          "distance": 25123,
+          "postalCode": "22939",
+          "cc": "US",
+          "city": "Fishersville",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "Barren Ridge Rd.",
+            "Fishersville, VA 22939"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 767,
+          "usersCount": 460,
+          "tipCount": 10
+        },
+        "url": "http:\/\/www.barrenridgevineyards.com\/",
+        "hasMenu": true,
+        "menu": {
+          "type": "Services",
+          "label": "Services",
+          "anchor": "View Services",
+          "url": "https:\/\/foursquare.com\/v\/barren-ridge-vineyard\/4bed9c1b9868a59317a85d46\/menu",
+          "mobileUrl": "https:\/\/foursquare.com\/v\/4bed9c1b9868a59317a85d46\/device_menu"
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b882727f964a52070e331e3",
+        "name": "Jefferson Vineyards",
+        "contact": {
+          "phone": "4349773042",
+          "formattedPhone": "(434) 977-3042",
+          "twitter": "th_jefferson"
+        },
+        "location": {
+          "address": "1353 Thomas Jefferson Pkwy",
+          "lat": 37.99012302456163,
+          "lng": -78.44377661898172,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.99012302456163,
+              "lng": -78.44377661898172
+            }
+          ],
+          "distance": 22801,
+          "postalCode": "22902",
+          "cc": "US",
+          "city": "Charlottesville",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "1353 Thomas Jefferson Pkwy",
+            "Charlottesville, VA 22902"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1de941735",
+            "name": "Vineyard",
+            "pluralName": "Vineyards",
+            "shortName": "Vineyard",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/vineyard_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 2733,
+          "usersCount": 1809,
+          "tipCount": 20
+        },
+        "url": "http:\/\/www.jeffersonvineyards.com\/",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4e8b73dcf790db5ec35ad6c4",
+        "name": "Trump Winery",
+        "contact": {
+          "phone": "4349773895",
+          "formattedPhone": "(434) 977-3895",
+          "twitter": "trumpwinery",
+          "facebook": "254503214572367"
+        },
+        "location": {
+          "address": "3550 Blenheim Road",
+          "lat": 37.93910259936365,
+          "lng": -78.498641026019,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.93910259936365,
+              "lng": -78.498641026019
+            }
+          ],
+          "distance": 20533,
+          "postalCode": "22902",
+          "cc": "US",
+          "city": "Charlottesville",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "3550 Blenheim Road",
+            "Charlottesville, VA 22902"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 1677,
+          "usersCount": 1291,
+          "tipCount": 23
+        },
+        "url": "http:\/\/www.trumpwinery.com",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "venuePage": {
+          "id": "78148888"
+        },
+        "storeId": "",
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4d728506311f6ea857dadcea",
+        "name": "Glass House Winery",
+        "contact": {
+          "phone": "4349750094",
+          "formattedPhone": "(434) 975-0094",
+          "twitter": "glasshousewines"
+        },
+        "location": {
+          "address": "5898 Free Union Rd",
+          "lat": 38.15201897348994,
+          "lng": -78.57957257855035,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.15201897348994,
+              "lng": -78.57957257855035
+            }
+          ],
+          "distance": 16388,
+          "postalCode": "22940",
+          "cc": "US",
+          "city": "Free Union",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "5898 Free Union Rd",
+            "Free Union, VA 22940"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 227,
+          "usersCount": 148,
+          "tipCount": 6
+        },
+        "url": "http:\/\/glasshousewinery-hub.com",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "venuePage": {
+          "id": "380935816"
+        },
+        "storeId": "",
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4df51a85aeb7170aa2f6ae90",
+        "name": "Pippin Hill Farm & Vineyards",
+        "contact": {
+          "phone": "4342028063",
+          "formattedPhone": "(434) 202-8063",
+          "twitter": "PippinHillFarm"
+        },
+        "location": {
+          "address": "Plank Road",
+          "crossStreet": "Route 29",
+          "lat": 37.961824695423886,
+          "lng": -78.65830555019578,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.961824695423886,
+              "lng": -78.65830555019578
+            }
+          ],
+          "distance": 9051,
+          "postalCode": "22959",
+          "cc": "US",
+          "city": "North Garden",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "Plank Road (Route 29)",
+            "North Garden, VA 22959"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 2360,
+          "usersCount": 1737,
+          "tipCount": 25
+        },
+        "url": "http:\/\/www.pippinhillfarm.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Services",
+          "label": "Services",
+          "anchor": "View Services",
+          "url": "https:\/\/foursquare.com\/v\/pippin-hill-farm--vineyards\/4df51a85aeb7170aa2f6ae90\/menu",
+          "mobileUrl": "https:\/\/foursquare.com\/v\/4df51a85aeb7170aa2f6ae90\/device_menu"
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "storeId": "",
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4b92a2f4f964a5204a0c34e3",
+        "name": "King Family Vineyards",
+        "contact": {
+          "phone": "4348237800",
+          "formattedPhone": "(434) 823-7800",
+          "twitter": "kingvineyards",
+          "facebook": "67585727287"
+        },
+        "location": {
+          "address": "6550 Roseland Farm",
+          "crossStreet": "Half Mile Branch Road",
+          "lat": 38.06232347308405,
+          "lng": -78.72871053053422,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.06232347308405,
+              "lng": -78.72871053053422
+            }
+          ],
+          "distance": 3951,
+          "postalCode": "22932",
+          "cc": "US",
+          "city": "Crozet",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "6550 Roseland Farm (Half Mile Branch Road)",
+            "Crozet, VA 22932"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 3311,
+          "usersCount": 2384,
+          "tipCount": 35
+        },
+        "url": "http:\/\/www.kingfamilyvineyards.com",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "venuePage": {
+          "id": "54183848"
+        },
+        "storeId": "",
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "515f4472e4b09829e96cc052",
+        "name": "Meriwether Springs Vineyard",
+        "contact": {},
+        "location": {
+          "address": "1040 Owensville Rd",
+          "lat": 38.065912,
+          "lng": -78.596318,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.065912,
+              "lng": -78.596318
+            }
+          ],
+          "distance": 9364,
+          "postalCode": "22901",
+          "cc": "US",
+          "city": "Charlottesville",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "1040 Owensville Rd",
+            "Charlottesville, VA 22901"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1de941735",
+            "name": "Vineyard",
+            "pluralName": "Vineyards",
+            "shortName": "Vineyard",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/vineyard_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 59,
+          "usersCount": 50,
+          "tipCount": 1
+        },
+        "url": "http:\/\/meriwethersprings.com",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4dfe41e2e4cd8e633feaf253",
+        "name": "Stinson Vineyards",
+        "contact": {
+          "phone": "4348237300",
+          "formattedPhone": "(434) 823-7300",
+          "twitter": "stinsonvineyard",
+          "facebook": "369509131220",
+          "facebookUsername": "StinsonVineyard",
+          "facebookName": "Stinson Vineyards"
+        },
+        "location": {
+          "address": "4744 Sugar Hollow Rd",
+          "crossStreet": "at Browns Gap Turnpike",
+          "lat": 38.11967619400118,
+          "lng": -78.66454622633763,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.11967619400118,
+              "lng": -78.66454622633763
+            }
+          ],
+          "distance": 9597,
+          "postalCode": "22932",
+          "cc": "US",
+          "city": "Crozet",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "4744 Sugar Hollow Rd (at Browns Gap Turnpike)",
+            "Crozet, VA 22932"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 590,
+          "usersCount": 259,
+          "tipCount": 6
+        },
+        "url": "http:\/\/www.stinsonvineyards.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Services",
+          "label": "Services",
+          "anchor": "View Services",
+          "url": "https:\/\/foursquare.com\/v\/stinson-vineyards\/4dfe41e2e4cd8e633feaf253\/menu",
+          "mobileUrl": "https:\/\/foursquare.com\/v\/4dfe41e2e4cd8e633feaf253\/device_menu"
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "venuePage": {
+          "id": "43036012"
+        },
+        "storeId": "",
+        "hereNow": {
+          "count": 2,
+          "summary": "2 people are here",
+          "groups": [
+            {
+              "type": "others",
+              "name": "Other people here",
+              "count": 2,
+              "items": []
+            }
+          ]
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4c603f06832fa5939c2befd3",
+        "name": "Rio Hill Wine and Gourmet",
+        "contact": {
+          "phone": "4342958466",
+          "formattedPhone": "(434) 295-8466"
+        },
+        "location": {
+          "address": "1908 Rio Hill Ctr",
+          "crossStreet": "Seminole trail",
+          "lat": 38.0876898765564,
+          "lng": -78.47463369369507,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.0876898765564,
+              "lng": -78.47463369369507
+            }
+          ],
+          "distance": 20262,
+          "postalCode": "22901",
+          "cc": "US",
+          "city": "Charlottesville",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "1908 Rio Hill Ctr (Seminole trail)",
+            "Charlottesville, VA 22901"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 28,
+          "usersCount": 19,
+          "tipCount": 2
+        },
+        "url": "http:\/\/www.wine-gourmet.com\/",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4be59cd8910020a18a2fd314",
+        "name": "Wisdom Oak Winery",
+        "contact": {
+          "phone": "4349844272",
+          "formattedPhone": "(434) 984-4272",
+          "twitter": "wisdomoakwinery"
+        },
+        "location": {
+          "address": "3613 Walnut Branch Ln",
+          "lat": 37.93780811577696,
+          "lng": -78.6096292953958,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.93780811577696,
+              "lng": -78.6096292953958
+            }
+          ],
+          "distance": 13455,
+          "postalCode": "22959",
+          "cc": "US",
+          "city": "North Garden",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "3613 Walnut Branch Ln",
+            "North Garden, VA 22959"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 85,
+          "usersCount": 83,
+          "tipCount": 1
+        },
+        "url": "http:\/\/wisdomoakwinery.com",
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4d5956a28e1059412b3cd4e1",
+        "name": "Mountfair Vineyards",
+        "contact": {
+          "phone": "4348237605",
+          "formattedPhone": "(434) 823-7605"
+        },
+        "location": {
+          "address": "4875 Fox Mountain Rd",
+          "lat": 38.11971561174819,
+          "lng": -78.66450976038918,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.11971561174819,
+              "lng": -78.66450976038918
+            }
+          ],
+          "distance": 9602,
+          "postalCode": "22932",
+          "cc": "US",
+          "city": "Mountfair",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "4875 Fox Mountain Rd",
+            "Mountfair, VA 22932"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1de941735",
+            "name": "Vineyard",
+            "pluralName": "Vineyards",
+            "shortName": "Vineyard",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/parks_outdoors\/vineyard_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 135,
+          "usersCount": 94,
+          "tipCount": 1
+        },
+        "url": "http:\/\/www.mountfair.com",
+        "hasMenu": true,
+        "menu": {
+          "type": "Prices",
+          "label": "Prices",
+          "anchor": "View Prices",
+          "url": "https:\/\/foursquare.com\/v\/mountfair-vineyards\/4d5956a28e1059412b3cd4e1\/menu",
+          "mobileUrl": "https:\/\/foursquare.com\/v\/4d5956a28e1059412b3cd4e1\/device_menu"
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "venuePage": {
+          "id": "35938203"
+        },
+        "storeId": "",
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "4eb7443e775b544c2816db5e",
+        "name": "Martin's Foods Wine Dept.",
+        "contact": {},
+        "location": {
+          "lat": 38.1392771269502,
+          "lng": -79.04626741346907,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.1392771269502,
+              "lng": -79.04626741346907
+            }
+          ],
+          "distance": 32658,
+          "postalCode": "24401",
+          "cc": "US",
+          "city": "Staunton",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "Staunton, VA 24401"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 78,
+          "usersCount": 13,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "55b3ef87498ea8d653786999",
+        "name": "Hunt's Vineyard",
+        "contact": {},
+        "location": {
+          "address": "57 Hawkins Pond Ln",
+          "lat": 37.975472,
+          "lng": -78.968611,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.975472,
+              "lng": -78.968611
+            }
+          ],
+          "distance": 24816,
+          "postalCode": "24477",
+          "cc": "US",
+          "city": "Stuarts Draft",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "57 Hawkins Pond Ln",
+            "Stuarts Draft, VA 24477"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 3,
+          "usersCount": 3,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "5187e80b498efd58e4c7d030",
+        "name": "Prince Michel",
+        "contact": {},
+        "location": {
+          "lat": 37.991267125249976,
+          "lng": -78.47205032145746,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.991267125249976,
+              "lng": -78.47205032145746
+            }
+          ],
+          "distance": 20363,
+          "cc": "US",
+          "state": "Virginia",
+          "country": "United States",
+          "formattedAddress": [
+            "Virginia"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 30,
+          "usersCount": 29,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "519a01ad498e3840f6d413b9",
+        "name": "Barns at Hamilton Station Vineyards",
+        "contact": {},
+        "location": {
+          "lat": 37.939056396484375,
+          "lng": -78.33052062988281,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 37.939056396484375,
+              "lng": -78.33052062988281
+            }
+          ],
+          "distance": 33942,
+          "cc": "US",
+          "city": "Lake Monticello",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "Lake Monticello, VA"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      },
+      {
+        "id": "50022a38e4b0a7c212c4ccd9",
+        "name": "Veritas Farmhouse",
+        "contact": {
+          "phone": "5404568100",
+          "formattedPhone": "(540) 456-8100"
+        },
+        "location": {
+          "address": "Veritas Lane",
+          "lat": 38.01402198188361,
+          "lng": -78.84139145877099,
+          "labeledLatLngs": [
+            {
+              "label": "display",
+              "lat": 38.01402198188361,
+              "lng": -78.84139145877099
+            }
+          ],
+          "distance": 12943,
+          "postalCode": "22920",
+          "cc": "US",
+          "city": "Afton",
+          "state": "VA",
+          "country": "United States",
+          "formattedAddress": [
+            "Veritas Lane",
+            "Afton, VA 22920"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d14b941735",
+            "name": "Winery",
+            "pluralName": "Wineries",
+            "shortName": "Winery",
+            "icon": {
+              "prefix": "https:\/\/ss3.4sqi.net\/img\/categories_v2\/food\/winery_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 100,
+          "usersCount": 60,
+          "tipCount": 2
+        },
+        "allowMenuUrlEdit": true,
+        "beenHere": {
+          "lastCheckinExpiredAt": 0
+        },
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1518887037",
+        "venueChains": [],
+        "hasPerk": false
+      }
+    ],
+    "confident": false
+  }
+}
