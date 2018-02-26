@@ -1,5 +1,3 @@
-<!-- https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js -->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,45 +6,39 @@
 
 </head>
 <body>
-<div class="container">
+<div class="">
     <div class="options-box row">
-        <div class="col-xs-8">
-            <div>Places to <span class="app-title">unWINEd</span>
+
+        <div class="col-xs-12">
+            <div class="header-info">
+            <span class="text">Places to &nbsp;&nbsp;&nbsp;<span
+                    class="app-title">unWINEd
+            </span>
+            </span>
             </div>
-        </div>
-        <div class="col-xs-4 text-right">
-            <h6 class="btn-link hide-all">
-                Hide All
-            </h6>
         </div>
 
         <div class="col-xs-12">
 
-            <div class="input-group row">
-                <input type="text" class="form-control" placeholder="Filter">
-                <div class="input-group-btn">
-                    <button class="btn btn-default" type="submit">
-                        <i class="fa fa-filter"></i>
-                    </button>
-                </div>
-            </div>
+            <input type="text" class="form-control" placeholder="Filter"
+                   data-bind="value: query, valueUpdate: 'afterkeydown'">
 
-            <div class="row">
-                <ul class="col-xs-12">
-                    <li class="result-item">
-                        <div class="col-xs-2 result-item-icon">
-
-                        </div>
-                        <div class="col-xs-10 result-item-content">
-
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- <input id="show-listings" type="button" value="Show Listings">
-                <input id="hide-listings" type="button" value="Hide Listings"> -->
         </div>
+
+        <ul class="col-xs-12 results"
+            data-bind="foreach: filteredVenues">
+            <li class="results__list"
+                data-bind="event: { mouseover: $parent.highlightVenue, mouseout: $parent.ignoreVenue, click: $parent.selectVenue }">
+                <div class="hidden-xs hidden-sm hidden-md col-lg-2 result-item-icon">
+                    <img src="static/img/wine.png"
+                         class="result-item-icon">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 result-item-content"
+                     data-bind="text: name">
+                </div>
+            </li>
+        </ul>
+
     </div>
 </div>
 <div id="map"></div>
@@ -62,6 +54,10 @@
         crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"
+        integrity="sha256-owX7sroiO/O1a7h3a4X29A1g3QgqdNvijRQ7V5TH45M="
         crossorigin="anonymous"></script>
 
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"

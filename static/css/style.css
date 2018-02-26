@@ -1,3 +1,9 @@
+/*<div>Icons made by <a href="http://www.freepik.com" title="Freepik">
+Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">
+www.flaticon.com</a> is licensed by
+<a href="http://creativecommons.org/licenses/by/3.0/"
+title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>*/
+
 html,
 body {
     font-family: Arial, sans-serif;
@@ -12,13 +18,33 @@ body {
     url('../fonts/BaroqueScript.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Riesling';
+    src: local('Riesling'),
+    url('../fonts/riesling.ttf') format('truetype');
+}
+
+.text {
+    font-family: "BaroqueScript", sans-serif;
+}
+
 .app-title {
-    font-family: "BaroqueScript", 'sans-serif';
+    font-family: "Riesling", sans-serif;
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: white;
 }
 
 .container {
     height: 100%;
     position: relative;
+}
+
+.header-info {
+    background: rgb(114, 47, 55);
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
 }
 
 input {
@@ -41,12 +67,49 @@ h1 {
 }
 
 .options-box {
-    background: rgba(114, 47, 55, 0.11);
-    height: 50%;
-    line-height: 35px;
-    padding: 10px 10px 30px 10px;
+    background: rgba(114, 47, 55, 0.5);
+    height: 100%;
+    line-height: 30px;
+    padding: 10px;
     text-align: left;
-    width: 25vw;
+    width: 20vw;
+    left: 5%;
     position: relative;
     z-index: 1;
+}
+
+.results__list {
+    border: 1px solid white;
+    margin: 5px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+    max-height: 35px;
+}
+
+.results__list:hover {
+    background: rgb(255, 255, 255);
+}
+
+.results {
+    /*list-style: url("../img/wine.png");*/
+    list-style: none;
+    max-height: 45vh;
+    overflow: scroll;
+    margin-top: 10px;
+}
+
+.result-item-icon {
+    /*max-width: 100%;*/
+    max-height: 24px;
+}
+
+.result-item-content {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.venue-name {
+    font-size: 16px;
 }
