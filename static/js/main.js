@@ -73,7 +73,7 @@ function update_markers(venue_list) {
         };
         var title = venue_list[i].name;
         // Create a marker per location, and put into markers array.
-        var marker = default_marker(venue_list[i].id, title, position);
+        var marker = default_marker(venue_list[i].id, title, position, largeInfowindow);
         // Push the marker to our array of markers.
         markers.push(marker);
         // Create an onclick event to open an infowindow at each marker.
@@ -148,13 +148,16 @@ function venues_view_model() {
     };
 
     self.selectVenue = function(venue){
-        populateInfoWindow(markers.filter(obj => obj.id === venue['id'])[0], new google.maps.InfoWindow())
+        hide_all_info_windows()
+        var temp_marker = markers.filter(obj => obj.id === venue['id'])[0];
+        populateInfoWindow(temp_marker, temp_marker.infowindow);
     };
 
     self.query = ko.observable('');
 
     self.filteredVenues = ko.computed(function () {
         var filter = self.query().toLowerCase();
+        console.log(filter)
 
         if (!filter) {
             if (typeof google === 'object'){
@@ -189,9 +192,9 @@ function venues_view_model() {
 
 }
 
-function default_marker(id, title, position) {
+function default_marker(id, title, position, infowindow) {
     var image = {
-        url: 'static/img/wine-glass-empty.png',
+        url: 'static/img/wineglass-empty.png',
         // This marker is 20 pixels wide by 32 pixels high.
         size: new google.maps.Size(20, 32),
         // The origin for this image is (0, 0).
@@ -212,7 +215,8 @@ function default_marker(id, title, position) {
         shape: shape,
         title: title,
         id: id,
-        animation: google.maps.Animation.DROP
+        animation: google.maps.Animation.DROP,
+        infowindow: infowindow
     });
 
 }
@@ -220,7 +224,7 @@ function default_marker(id, title, position) {
 
 function highlight_marker(marker) {
     marker.setIcon({
-        url: 'static/img/wine-glass-filled.png',
+        url: 'static/img/wineglass-filled.png',
         // This marker is 20 pixels wide by 32 pixels high.
         size: new google.maps.Size(20, 32),
         // The origin for this image is (0, 0).
@@ -232,7 +236,7 @@ function highlight_marker(marker) {
 
 function ignore_marker(marker) {
     marker.setIcon({
-        url: 'static/img/wine-glass-empty.png',
+        url: 'static/img/wineglass-empty.png',
         // This marker is 20 pixels wide by 32 pixels high.
         size: new google.maps.Size(20, 32),
         // The origin for this image is (0, 0).
@@ -242,4 +246,10 @@ function ignore_marker(marker) {
     });
 }
 
-ko.applyBindings(new venues_view_model())
+function hide_all_info_windows() {
+    for(var i=0; i<markers.length; i++){
+        markers.infowindow = null;
+    }
+}
+
+ko.applyBindings(new venues_view_model());

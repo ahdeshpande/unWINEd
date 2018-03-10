@@ -2,52 +2,82 @@
 <html>
 <head>
     <title>unWINEd</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+          crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
 
 </head>
 <body>
 <div class="">
-    <div class="options-box row">
+    <nav class="navbar navbar-default navbar-fixed-top brand-color">
 
-        <div class="col-xs-12">
-            <div class="header-info">
-            <span class="text">Places to &nbsp;&nbsp;&nbsp;<span
-                    class="app-title">unWINEd
-            </span>
-            </span>
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+
+                <li class="dropdown keep-open open">
+                    <a href="#" class="dropdown-toggle navbar-brand" data-toggle="dropdown" role="button"
+                       aria-haspopup="true"
+                       aria-expanded="false">
+                        <span class="app-title">unWINEd
+                            <span class="result-item-icon">
+                                <img src="static/img/wine-glass-filled.png"
+                                     class="result-item-icon">
+                            </span>
+                        </span>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="col-xs-12">
+
+                                <input type="text" class="form-control" placeholder="Filter"
+                                       data-bind="textInput: query, valueUpdate: 'afterkeydown'">
+
+                            </div>
+
+                            <ul class="col-xs-12 results"
+                                data-bind="foreach: filteredVenues">
+                                <li class="results__list"
+                                    data-bind="event: { mouseover: $parent.highlightVenue, mouseout: $parent.ignoreVenue, click: $parent.selectVenue }">
+                                    <div class="hidden-xs hidden-sm hidden-md col-lg-2 result-item-icon">
+                                        <img src="static/img/wine.png"
+                                             class="result-item-icon">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 result-item-content"
+                                         data-bind="text: name">
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="col-xs-12 powered-by-div text-center">
+                                Powered by <span class="result-item-icon">
+                                <a href="https://foursquare.com/" target="_blank" class="app-links">
+                                <i class="fa fa-foursquare"></i>oursquare
+                                </a>
+                            </span>
+                            </div>
+
+                        </li>
+                    </ul>
+                </li>
             </div>
         </div>
 
-        <div class="col-xs-12">
+    </nav>
 
-            <input type="text" class="form-control" placeholder="Filter"
-                   data-bind="value: query, valueUpdate: 'afterkeydown'">
 
-        </div>
+</div>
 
-        <ul class="col-xs-12 results"
-            data-bind="foreach: filteredVenues">
-            <li class="results__list"
-                data-bind="event: { mouseover: $parent.highlightVenue, mouseout: $parent.ignoreVenue, click: $parent.selectVenue }">
-                <div class="hidden-xs hidden-sm hidden-md col-lg-2 result-item-icon">
-                    <img src="static/img/wine.png"
-                         class="result-item-icon">
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 result-item-content"
-                     data-bind="text: name">
-                </div>
-            </li>
-        </ul>
-
-    </div>
 </div>
 <div id="map"></div>
 </body>
-
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous">
 
 <script src="http://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -59,11 +89,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"
         integrity="sha256-owX7sroiO/O1a7h3a4X29A1g3QgqdNvijRQ7V5TH45M="
         crossorigin="anonymous"></script>
-
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous">
 
 <script type="text/javascript" src="static/js/main.js"></script>
 <script async defer
