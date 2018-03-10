@@ -1,6 +1,6 @@
 var map = null;
 var client_id = '1TEOHZPSLGCQO2I51YSOXEM3SQNO03JSSTV4MECKJEZI11M3';
-var client_secret = 'WVU4WZF4AZAPS4VJR321RSJUVMZF2I5ZKLGSWXHCY2VBEFNF';
+var client_secret = 'FOURSQUARE_CLIENT_SECRET';
 var latitude = 38.033554;
 var longitude = -78.507980;
 var all_venue_data = [];
@@ -134,8 +134,9 @@ function venues_view_model() {
             }
         },
         error: function (data) {
-            console.log(data);
-            console.log("Error in fetching data")
+            $('.filter-div').hide();
+            $('.error-message').text("No data!");
+            $('#fsModal').modal()
         }
     });
 
@@ -157,7 +158,6 @@ function venues_view_model() {
 
     self.filteredVenues = ko.computed(function () {
         var filter = self.query().toLowerCase();
-        console.log(filter)
 
         if (!filter) {
             if (typeof google === 'object'){
@@ -250,6 +250,10 @@ function hide_all_info_windows() {
     for(var i=0; i<markers.length; i++){
         markers.infowindow = null;
     }
+}
+
+function gm_authFailure(){
+    $('#gModal').modal();
 }
 
 ko.applyBindings(new venues_view_model());

@@ -140,3 +140,8 @@ h1 {
     text-decoration: none;
     color: #0072b1;
 }
+
+.error-message {
+    color: white;
+    font-size: large;
+}
