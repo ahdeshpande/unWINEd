@@ -63,55 +63,56 @@
         <div class="container-fluid">
 
             <div class="navbar-header">
-
-                <li class="dropdown keep-open open">
-                    <a href="#" class="dropdown-toggle navbar-brand" data-toggle="dropdown" role="button"
-                       aria-haspopup="true"
-                       aria-expanded="false">
+                <ul>
+                    <li class="dropdown keep-open open">
+                        <a href="#" class="dropdown-toggle navbar-brand" data-toggle="dropdown" role="button"
+                           aria-haspopup="true"
+                           aria-expanded="false">
                         <span class="app-title">unWINEd
                             <span class="result-item-icon">
                                 <img src="static/img/wine-glass-filled.png"
-                                     class="result-item-icon">
+                                     class="result-item-icon" alt="Icon">
                             </span>
                         </span>
-                    </a>
+                        </a>
 
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="col-xs-12 error-message"></div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="col-xs-12 error-message"></div>
 
-                            <div class="col-xs-12 filter-div">
+                                <div class="col-xs-12 filter-div">
 
-                                <input type="text" class="form-control" placeholder="Filter"
-                                       data-bind="textInput: query, valueUpdate: 'afterkeydown'">
+                                    <input type="text" class="form-control" placeholder="Filter"
+                                           data-bind="textInput: query, valueUpdate: 'afterkeydown'">
 
-                            </div>
+                                </div>
 
-                            <ul class="col-xs-12 results"
-                                data-bind="foreach: filteredVenues">
-                                <li class="results__list"
-                                    data-bind="event: { mouseover: $parent.highlightVenue, mouseout: $parent.ignoreVenue, click: $parent.selectVenue }">
-                                    <div class="hidden-xs hidden-sm hidden-md col-lg-2 result-item-icon">
-                                        <img src="static/img/wine.png"
-                                             class="result-item-icon">
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 result-item-content"
-                                         data-bind="text: name">
-                                    </div>
-                                </li>
-                            </ul>
+                                <ul class="col-xs-12 results"
+                                    data-bind="foreach: filteredVenues">
+                                    <li class="results__list"
+                                        data-bind="event: { mouseover: $parent.highlightVenue, mouseout: $parent.ignoreVenue, click: $parent.selectVenue }">
+                                        <div class="hidden-xs hidden-sm hidden-md col-lg-2 result-item-icon">
+                                            <img src="static/img/wine.png"
+                                                 class="result-item-icon" alt="Icon">
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 result-item-content"
+                                             data-bind="text: name">
+                                        </div>
+                                    </li>
+                                </ul>
 
-                            <div class="col-xs-12 powered-by-div text-center">
-                                Powered by <span class="result-item-icon">
+                                <div class="col-xs-12 powered-by-div text-center">
+                                    Powered by <span class="result-item-icon">
                                 <a href="https://foursquare.com/" target="_blank" class="app-links">
                                 <i class="fa fa-foursquare"></i>
                                 </a>
                             </span>
-                            </div>
+                                </div>
 
-                        </li>
-                    </ul>
-                </li>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -133,7 +134,7 @@
         integrity="sha256-owX7sroiO/O1a7h3a4X29A1g3QgqdNvijRQ7V5TH45M="
         crossorigin="anonymous"></script>
 
-<script type="text/javascript" src="static/js/main.js"></script>
+<script src="static/js/main.js"></script>
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_API_KEY&v=3&callback=initMap">
 </script>
