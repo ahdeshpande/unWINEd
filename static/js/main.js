@@ -2,6 +2,7 @@
 /*global google */
 /*global ko */
 /*global $ */
+/*jshint loopfunc: true */
 
 var map = null;
 var client_id = '1TEOHZPSLGCQO2I51YSOXEM3SQNO03JSSTV4MECKJEZI11M3';
