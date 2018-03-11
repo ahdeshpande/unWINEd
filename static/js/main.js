@@ -1,3 +1,8 @@
+/*jshint esversion: 6 */
+/*global google */
+/*global ko */
+/*global $ */
+
 var map = null;
 var client_id = '1TEOHZPSLGCQO2I51YSOXEM3SQNO03JSSTV4MECKJEZI11M3';
 var client_secret = 'FOURSQUARE_CLIENT_SECRET';
@@ -27,14 +32,14 @@ function initMap() {
         mapTypeControl: false
     });
 
-    map.setZoom(10)
-    map.panBy(-100, 0)
+    map.setZoom(10);
+    map.panBy(-100, 0);
 
     // document.getElementById('show-listings').addEventListener('click', showListings);
     $('.hide-all').on('click', function (e) {
         e.preventDefault();
         hideListings();
-    })
+    });
 }
 
 // This function populates the infowindow when the marker is clicked. We'll only allow
@@ -115,42 +120,42 @@ function venues_view_model() {
             all_venue_data = data.response.venues;
 
             var number_of_locations = all_venue_data.length;
-            locations = []
+            locations = [];
 
             if (number_of_locations > 0) {
                 // Iterate through responses and retrieve location information
                 for (var i = 0; i < number_of_locations; i++) {
                     self.venues.push(new Venue(all_venue_data[i].id,
                         all_venue_data[i].name,
-                        all_venue_data[i].location['lat'],
-                        all_venue_data[i].location['lng']
-                    ))
+                        all_venue_data[i].location.lat,
+                        all_venue_data[i].location.lng
+                    ));
                 }
                 update_markers(ko.toJS(self.venues));
 
             }
             else {
-                console.log("No Locations available")
+                console.log("No Locations available");
             }
         },
         error: function (data) {
             $('.filter-div').hide();
             $('.error-message').text("No data!");
-            $('#fsModal').modal()
+            $('#fsModal').modal();
         }
     });
 
     self.highlightVenue = function (venue) {
-        highlight_marker(markers.filter(obj => obj.id === venue['id'])[0]);
+        highlight_marker(markers.filter(obj => obj.id === venue.id)[0]);
     };
 
     self.ignoreVenue = function (venue) {
-        ignore_marker(markers.filter(obj => obj.id === venue['id'])[0]);
+        ignore_marker(markers.filter(obj => obj.id === venue.id)[0]);
     };
 
     self.selectVenue = function(venue){
-        hide_all_info_windows()
-        var temp_marker = markers.filter(obj => obj.id === venue['id'])[0];
+        hide_all_info_windows();
+        var temp_marker = markers.filter(obj => obj.id === venue.id)[0];
         populateInfoWindow(temp_marker, temp_marker.infowindow);
     };
 
@@ -162,12 +167,12 @@ function venues_view_model() {
         if (!filter) {
             if (typeof google === 'object'){
                 return ko.utils.arrayFilter(self.venues(), function (venue) {
-                    var visible_marker = markers.filter(obj => obj.id === venue['id'])[0];
+                    var visible_marker = markers.filter(obj => obj.id === venue.id)[0];
                     if(typeof visible_marker !== 'undefined') {
                         visible_marker.setMap(map);
                     }
                     return true;
-                })
+                });
             }
             else {
                 return self.venues();
@@ -176,13 +181,13 @@ function venues_view_model() {
             hideListings();
             return ko.utils.arrayFilter(self.venues(), function (venue) {
                 if (venue.name.toLowerCase().indexOf(filter) >= 0) {
-                    var visible_marker = markers.filter(obj => obj.id === venue['id'])[0];
-                    visible_marker.setMap(map);
+                    var visible_marker_show = markers.filter(obj => obj.id === venue.id)[0];
+                    visible_marker_show.setMap(map);
                     return true;
                 }
                 else {
-                    var visible_marker = markers.filter(obj => obj.id === venue['id'])[0];
-                    visible_marker.setMap(null);
+                    var visible_marker_hide = markers.filter(obj => obj.id === venue.id)[0];
+                    visible_marker_hide.setMap(null);
                     return false;
                 }
             });
@@ -209,7 +214,7 @@ function default_marker(id, title, position, infowindow) {
     };
 
     return new google.maps.Marker({
-        position: {lat: position['lat'], lng: position['lng']},
+        position: {lat: position.lat, lng: position.lng},
         map: map,
         icon: image,
         shape: shape,
