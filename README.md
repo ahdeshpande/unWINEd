@@ -1,6 +1,8 @@
 # unWINEd
 A web app to show a list of wineries around Charlottesville, VA. This app allows you to filter the data showed in the list.
 
+This app is live [here](http://www.abhiraj.me/unWINEd.html).
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
